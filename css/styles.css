@@ -1,0 +1,75 @@
+/* ideas:
+make background fade into main color of album when it gets there
+add minor animations */
+
+body {
+  background: #5c4e3c;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+}
+
+.act1 {
+  background: #5c4e3c;
+  transition: background 0.8s;
+}
+
+.act2 {
+  background: #42352c;
+  transition: background 0.8s;
+}
+
+.act3 {
+  background: #2e0f0c;
+  transition: background 0.8s;
+}
+
+.act4 {
+  background: #7e5b3d;
+  transition: background 0.8s;
+}
+
+.act5 {
+  background: #3a4951;
+  transition: background 0.8s;
+}
+
+.timelineContainer {
+}
+
+.timeline {
+  background: white;
+  width: 10px;
+  /* height: 100%;
+  position: absolute;
+  margin: 0 auto; */
+}
+
+.timeline:after {
+  content: '';
+  width: 0;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  border: 3px solid white;
+  top: 100;
+  z-index: -1;
+}
+
+.timelineEntry {
+
+}
+
+.songTitle {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.year {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
