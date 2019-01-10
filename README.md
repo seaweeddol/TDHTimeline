@@ -1,5 +1,6 @@
 # TDHTimeline
-Website for The Dear Hunter Acts 1-5 timeline
+Website for The Dear Hunter Acts 1-5 timeline.
+https://seaweeddol.github.io/TDHTimeline/
 
 # Built with:
 HTML, CSS, Javascript, Bootstrap
