@@ -11,7 +11,7 @@ HTML, CSS, Javascript, Bootstrap
 - Learned how to find the position of an element using getBoundingClientRect()
 
 # Things to eventually be added:
-- Make page responsive for mobile
+- ~~Make page responsive for mobile~~
 - Add hover effect for timeline entries
 - Link to or embed popout videos for each song
 - Move all info into an array and build the page with javascript
