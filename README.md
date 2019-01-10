@@ -11,5 +11,5 @@ HTML, CSS, Javascript, Bootstrap
 - Allow user to filter Act timeline(s) to show
 
 # Credits
-[/u/Lesime](https://www.reddit.com/user/Lesime) for providing [the timeline](https://www.reddit.com/r/TheDearHunter/comments/5uuus9/the_dear_hunter_timeline/)
-[The Dear Hunter](http://thedearhunter.com/) for creating inspiring music
+- [/u/Lesime](https://www.reddit.com/user/Lesime) for providing [the timeline](https://www.reddit.com/r/TheDearHunter/comments/5uuus9/the_dear_hunter_timeline/)
+- [The Dear Hunter](http://thedearhunter.com/) for creating inspiring music
