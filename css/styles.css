@@ -13,53 +13,52 @@ h1 {
 
 .act1 {
   background: #5c4e3c;
-  transition: background 0.8s;
+  transition: background 1.5s;
 }
 
 .act2 {
   background: #42352c;
-  transition: background 0.8s;
+  transition: background 1.5s;
 }
 
 .act3 {
   background: #2e0f0c;
-  transition: background 0.8s;
+  transition: background 1.5s;
 }
 
 .act4 {
   background: #7e5b3d;
-  transition: background 0.8s;
+  transition: background 1.5s;
 }
 
 .act5 {
   background: #3a4951;
-  transition: background 0.8s;
+  transition: background 1.5s;
 }
 
 .timelineContainer {
 }
 
+/* The actual timeline (the vertical ruler) */
 .timeline {
-  background: white;
-  width: 10px;
-  /* height: 100%;
-  position: absolute;
-  margin: 0 auto; */
+  position: relative;
 }
 
-.timeline:after {
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
   content: '';
-  width: 0;
-  height: 100%;
-  left: 50%;
   position: absolute;
-  border: 3px solid white;
-  top: 100;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
   z-index: -1;
 }
 
-.timelineEntry {
-
+.details {
+  width: 80%;
 }
 
 .songTitle {
@@ -72,4 +71,5 @@ h1 {
   font-family: 'Cinzel', serif;
   font-size: 1.5rem;
   text-transform: uppercase;
+  width: 20%;
 }
