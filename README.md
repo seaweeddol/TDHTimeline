@@ -5,7 +5,13 @@ https://seaweeddol.github.io/TDHTimeline/
 # Built with:
 HTML, CSS, Javascript, Bootstrap
 
-# Things that may eventually be added:
+# What did I learn from this project?
+- Became more familiar with Bootstrap
+- Learned how to change elements based on user scroll position
+- Learned how to find the position of an element using getBoundingClientRect()
+
+# Things to eventually be added:
+- Make page responsive for mobile
 - Add hover effect for timeline entries
 - Link to or embed popout videos for each song
 - Move all info into an array and build the page with javascript
