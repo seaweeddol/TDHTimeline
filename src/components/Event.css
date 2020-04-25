@@ -1,0 +1,23 @@
+.event {
+  width: 350px;
+  border-radius: 10px;
+  background-color: rgb(230, 162, 162);
+  padding: 10px;
+  margin: 5px;
+  transform: scale(1);
+  transition: transform 1s;
+}
+
+.event:nth-child(odd) {
+  margin-right: auto;
+}
+
+.event:nth-child(even) {
+  margin-left: auto;
+  color: blue;
+}
+
+.event:hover {
+  transform: scale(1.05);
+  transition: transform 1s;
+}
