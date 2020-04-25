@@ -1,14 +1,15 @@
 import React from 'react';
 // import './App.css';
-// import Board from './components/Board';
+import Timeline from './components/Timeline';
 
 const App = () => {  
 
   return (
     <section>
       <header className="">
-        <h1 className=""><span className="">TDH Timeline</span></h1>
+        <h1 className="">TDH Timeline</h1>
       </header>
+      <
     </section>
   );
 };
