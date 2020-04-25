@@ -14,7 +14,7 @@ const Timeline = () => {
   })
 
   return (
-    <div>
+    <div className="timeline">
       {events}
     </div>
   )
