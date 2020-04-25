@@ -7,8 +7,9 @@ const Event = (props) => {
 
   return (
     <div className="event">
-      <p>Act {props.act}</p>
-      <p>{props.title}</p>
+      <h3>{props.title}</h3>
+      <p>{props.year}</p>
+      <p>{props.description}</p>
     </div>
   )
 }
